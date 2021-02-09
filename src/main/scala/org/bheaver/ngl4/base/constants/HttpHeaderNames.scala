@@ -1,5 +1,8 @@
 package org.bheaver.ngl4.base.constants
 
 object HttpHeaderNames extends Enumeration {
-  val X_LIB_CODE = Value("X-LIB-CODE")
+  type HttpHeaderNames = Value
+
+  val X_LIB_CODE = Value("X-LIBCODE")
+  val X_AUTH_TOKEN = Value("X-TOKEN")
 }
